@@ -31,7 +31,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         // your wordpress source
-        baseUrl: `wp-tutsplus.test`,
+        baseUrl: `http://da07c66e.ngrok.io`, //`wp-tutsplus.test`,
         protocol: `http`,
         // is it hosted on wordpress.com, or self-hosted?
         hostingWPCOM: false,
